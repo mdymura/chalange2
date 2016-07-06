@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="StyleSheet.css" type="text/css"/>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<title>EURO 2016</title>
+<link rel="icon" href="ico.png"/>
+</head>   
+   
+<header >блабла</header> 
+<body>   
+<div class="midinfo" style="color: white" style="font-size:100px" align="center" ><b>
+        Главная страница </b>
+</div> 
+<div class="list"  style="color:black "><img src="close.png" id ="close" class="clear_coment">
+    <ol type="1">Список
+    <li>0</li>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li></ol>
+</div>
+    
+<div class="blablabla" style="color:black"><img src="close.png" id="close" class="clear_coment"  ><p><b>Какое у вас состояние разума?</b></p>
+    <p><input name="dzen" type="radio" value="nedzen"> Не дзен</p>
+    <p><input name="dzen" type="radio" value="dzen"> Дзен</p>
+    <p><input name="dzen" type="radio" value="pdzen" checked> Полный ... дзен</p>
+    <p><input type="submit" value="Выбрать"></p>  
+     <input name="qwerty" type="checkbox">000 <br>
+     <input name="qwerty" type="checkbox">001 <br>
+     <input name="qwerty" type="checkbox">010 <br>
+     <input name="qwerty" type="checkbox">011 <br>
+     <input name="qwerty" type="checkbox">100 <br>
+     <input name="qwerty" type="checkbox">101 <br>
+     <input name="qwerty" type="checkbox">110 <br>
+     <input name="qwerty" type="checkbox">111 <br>
+</div>
+
+<div id="123" class="forms" ><form action="chalange 2.html"   method="POST" name="Test" target="_blank">
+          <img  src="close.png" id="close" class="clear_coment"  >
+    <input name="name" id="applicationName" maxlength="20" placeholder="Ваше имя*" required=""/><br>
+    <input name="telephone" id="applicationEmail" maxlength="20" placeholder="Ваш телефон*" required=""/><br>
+    <input name="comment" id="applicationTelephone" placeholder="Комментарий"/><br>
+    
+ <input type="button" name="bt" value="Click Here, just CLICK HERE!" onclick="InfoClick();">
+
+</form>  
+</div>
+<div class="pictures" align="center"><img src="close.png" id="close" class="clear_coment"  ><p>Картинки</p>
+        <a href="1.jpg"><img alt="backgrounds" src="1.jpg"/></a>
+        <a href="2.jpg"><img alt="backgrounds" src="2.jpg" /></a>
+        <a href="3.jpg"><img alt="backgrounds" src="3.jpg" /></a>
+        <a href="4.jpg"><img alt="backgrounds" src="4.jpg" /></a>
+        <a href="5.jpg"><img alt="backgrounds" src="5.jpg" /></a>
+</div>
+<div  class="wiki" ><img src="close.png" id="close" class="clear_coment"  >Чемпионат Европы по футболу 2016 (сокращённо Евро-2016) — 15-й футбольный турнир для сборных европейских стран, проводящийся под эгидой УЕФА. Проходит с 10 июня по 10 июля 2016 года. В сентябре 2008 года исполком УЕФА постановил, что на Евро-2016 впервые сыграют 24 команды. 28 мая 2010 года в Женеве страной проведения была выбрана Франция (в третий раз в истории).
+
+Победитель этого чемпионата станет участником Кубка конфедераций 2017 года в России.
+
+</div>
+
+<a href="#" class="scrollup" color="white">Наверх</a>
+</body>
+
+<script>
+        <!--
+        function InfoClick()
+        {
+            var Txt1 = "";
+            var Txt2 = "";
+            Txt1 = document.Test.bt.value;
+            Txt2 = document.Test.bt.name;
+            document.getElementById('123').innerHTML="<HR>"+
+                "Вы нажали кнопку: " + Txt1.bold() +
+                " с именем: "  + Txt2.bold() +"<HR>";
+        }
+        //-->
+    </script>
+
+
+<script type="text/javascript">
+
+$('.clear_coment').click(function(e) {
+
+   var index=$('.clear_coment').index(this);
+
+   
+$(this).parent().remove();
+   $(this).remove();
+
+   
+
+});
+
+
+
+</script>
