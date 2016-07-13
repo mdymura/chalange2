@@ -3,7 +3,7 @@ body {
     width: 100%;
     
 
-    background-image: url(backgroung.jpg);
+    background-image: url(style/img/backgroung.jpg);
     background-attachment: fixed;
     background-size:auto;
 
@@ -35,19 +35,17 @@ end {
     margin-left: 0px;
     margin-right: 0px;
 }
-#close{
-    float: right;
-    height: 24px;
-    width: 24px;
-}
+
 img{
     height:416px; 
     width:736px;
 }
 
 .clear_coment{
-  background: url('up.ico');
-  
+  background: url('style/img/up.ico');
+  float: right;
+    height: 24px;
+    width: 24px;
 
 }
 
@@ -77,7 +75,6 @@ img{
 }
 
 .pictures{
-
     margin-top: 20px;
     border: 3px;
     border-color: black;
