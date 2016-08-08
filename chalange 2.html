@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-
+<html lang="ru">
 <head >
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <link rel="stylesheet" href="StyleSheet.css" type="text/css"/>
@@ -13,12 +13,12 @@
 <link rel="icon" href="style/img/ico.png"/>
 </head>   
    
-<header >блабла</header> 
-<body>   
+<!--<header >блабла</header>-->
+<body >   
 <div class="midinfo" ><b>Главная страница </b>
 </div> 
-<div class="list"  ><img src="style/img/close.png" id ="close" class="clear_coment">
-    <ol type="1">Список
+<div class="list"  ><img alt="close button" src="style/img/close.png" id ="close" class="clear_coment">
+    <ol type="1">
     <li>0</li>
     <li>1</li>
     <li>2</li>
@@ -29,7 +29,7 @@
     <li>7</li></ol>
 </div>
     
-<div class="buttons" ><img src="style/img/close.png"   class="clear_coment"  ><p><b>Какое у вас состояние разума?</b></p>
+<div class="buttons" ><img alt="close button" src="style/img/close.png"   class="clear_coment"  ><p><b>Какое у вас состояние разума?</b></p>
     <p><input name="dzen" type="radio" value="nedzen"> Не дзен</p>
     <p><input name="dzen" type="radio" value="dzen"> Дзен</p>
     <p><input name="dzen" type="radio" value="pdzen" checked> Полный ... дзен</p>
@@ -44,8 +44,8 @@
        <input name="dzen2" type="checkbox">111 <br>
 </div>
 
-<div class="forms" ><img src="style/img/close.png"   class="clear_coment"  ><form action="chalange 2.html"   method="POST" name="Form1" target="_blank">
-<TABLE>
+<div class="forms" ><img alt="close button" src="style/img/close.png"   class="clear_coment"  ><form    method="POST" name="Form1" target="_blank">
+
         <p>Фамилия:
         <INPUT NAME="Family" SIZE=15 onBlur="this.value=this.value.toUpperCase()"></p>
         <p> Имя:
@@ -54,24 +54,21 @@
         <INPUT NAME="Age" SIZE=16 VALUE="18" onBlur="this.value=CheckAge(this.value)" onFocus="this.select()"></P>
         <P>Телефон:
         <INPUT NAME="Phone" SIZE=15></P>
-    </TABLE>
+    
     <INPUT TYPE="button" VALUE="Готово" onClick="Complete();">
     <INPUT TYPE="reset" VALUE="Сброс">
 </form>  
 </div>
-<div class="pictures"  ><img src="style/img/close.png"   class="clear_coment"  ><p>Картинки</p>
-        <a href="style/img/1.jpg"><img alt="backgrounds" src="style/img/1.jpg"/></a>
-        <a href="style/img/2.jpg"><img alt="backgrounds" src="style/img/2.jpg" /></a>
-        <a href="style/img/3.jpg"><img alt="backgrounds" src="style/img/3.jpg" /></a>
-        <a href="style/img/4.jpg"><img alt="backgrounds" src="style/img/4.jpg" /></a>
-        <a href="style/img/5.jpg"><img alt="backgrounds" src="style/img/5.jpg" /></a>
+<div class="pictures"  ><img alt="close button" src="style/img/close.png"   class="clear_coment"  ><p>Картинки</p>
+        <a href="style/img/1.jpg"><img alt="backgrounds1" src="style/img/1.jpg"/></a>
+        <a href="style/img/2.jpg"><img alt="backgrounds2" src="style/img/2.jpg" /></a>
+        <a href="style/img/3.jpg"><img alt="backgrounds3" src="style/img/3.jpg" /></a>
+        <a href="style/img/4.jpg"><img alt="backgrounds4" src="style/img/4.jpg" /></a>
+        <a href="style/img/5.jpg"><img alt="backgrounds5" src="style/img/5.jpg" /></a>
 </div>
-<div  class="wiki" ><img src="style/img/close.png"   class="clear_coment"  >Чемпионат Европы по футболу 2016 (сокращённо Евро-2016) — 15-й футбольный турнир для сборных европейских стран, проводящийся под эгидой УЕФА. Проходит с 10 июня по 10 июля 2016 года. В сентябре 2008 года исполком УЕФА постановил, что на Евро-2016 впервые сыграют 24 команды. 28 мая 2010 года в Женеве страной проведения была выбрана Франция (в третий раз в истории).
+<div  class="wiki" ><img alt="close button" src="style/img/close.png"   class="clear_coment"  >Чемпионат Европы по футболу 2016 (сокращённо Евро-2016) — 15-й футбольный турнир для сборных европейских стран, проводящийся под эгидой УЕФА. Проходит с 10 июня по 10 июля 2016 года. В сентябре 2008 года исполком УЕФА постановил, что на Евро-2016 впервые сыграют 24 команды. 28 мая 2010 года в Женеве страной проведения была выбрана Франция (в третий раз в истории).
 
 Победитель этого чемпионата станет участником Кубка конфедераций 2017 года в России.
-
-</div>
-</body>
 <script type="text/javascript">
     $('.clear_coment').click(function(e) {
     var index=$('.clear_coment').index(this); 
@@ -79,3 +76,5 @@
     $(this).remove();
     });
 </script>
+</div>
+</body>
