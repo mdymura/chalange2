@@ -1,15 +1,16 @@
 body {
-    height: 1200px;
-    width: 100%;
-    
+    margin-left: 15%;
+    margin-right: 15%;
 
+    height: 1200px;
+    width: auto;
+    
     background-image: url(style/img/backgroung.jpg);
     background-attachment: fixed;
     background-size:auto;
 
    
-    margin-left: 0px;
-    margin-right: 0px;
+   
     
 }/*
 header{text-align: center;
@@ -27,9 +28,11 @@ header{text-align: center;
 }
 */
 
-img{
+img{/*
     height:416px; 
-    width:736px;
+    width:736px;*/
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .midinfo{text-align: center;
     color: white;
