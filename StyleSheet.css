@@ -4,53 +4,46 @@ body {
 
     height: 1200px;
     width: auto;
-    
-    background-image: url(style/img/backgroung.jpg);
+    background:center;
+    background-size:cover;
+    /* background-color:#090909;*/
+   background-image: url(style/img/background3.jpg);
     background-attachment: fixed;
-    background-size:auto;
+      
+}
 
-   
-   
-    
-}/*
 header{text-align: center;
-    font-size:25%;
-    height: 70px;
-    width: 100%;
-    float: right;
-    border: 3px;
-    border-color: black;
-    border-style: solid;
-    border-radius: 12px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    font-size:medium;
-}
-*/
-
-img{
-    height:416px; 
-    width:736px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-.midinfo{text-align: center;
-    color: white;
+    color:white;
     font-size: 40px;
 }
-.clear_coment{
+
+
+img{cursor: pointer;
+
+   /* max-height:416px; */
+   max-width:100%;
+   border:2px;
+   border-radius:12px;
+}
+
+img:hover{position:center;
+    max-width:none;
+    max-height:600px;}
+
+
+.clear_coment{opacity:0.3;
   background: url('style/img/up.ico');
   float: right;
     height: 24px;
-    width: 24px;
+    width: 24px;}
 
-}
+.clear_coment:hover{opacity:1;opacity:1;}
 
 .list{
     background-color: white;
     margin-top: 20px;
     border: 3px;
-    border-color: black;
+    border-color:white;
     border-style: solid;
     border-radius: 12px;
 }
@@ -58,39 +51,48 @@ img{
     color: black;
     margin-top: 20px;
     border: 3px;
-    border-color: black;
+    border-color: white;
     border-style: solid;
     border-radius: 12px;
     background-color: white;
 }
-.forms{
-    background-color: orange;
+.forms{color:black;
+    background-color: white;
     margin-top: 20px;
     border: 3px;
-    border-color: black;
+    border-color: white;
     border-style: solid;
     border-radius: 12px;
 }
 
-.pictures{
+.pictures{font-size:20px;
+    background-color:white;      
     text-align: center;
     margin-top: 20px;
     border: 3px;
-    border-color: black;
+    
+    border-color:black;
     border-style: solid;
     border-radius: 12px;
 
 }
-
+.pictures_blocks{
+    margin-right:2px;
+    margin-left:2px;
+}
 .wiki{text-align: center;
     margin-top: 20px;
     border: 3px;
-    border-color: black;
+    border-color:white;
     border-style: solid;
     border-radius: 12px;
     background-color: white;
 }
-
+footer{max-width:100%;
+    
+    text-align: center;
+    color: white;
+    font-size: 30px;}
 
 
 
