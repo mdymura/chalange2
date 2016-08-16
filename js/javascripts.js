@@ -1,4 +1,4 @@
-/**This function add elements to form.*/
+﻿/**This function show variable Elem(Family,Name,Age,Phone).*/
         function Complete()
         {
             var Elem="Фамилия: " + document.Form1.Family.value +
