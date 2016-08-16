@@ -6,7 +6,6 @@ body {
     width: auto;
     background:center;
     background-size:cover;
-    /* background-color:#090909;*/
    background-image: url(style/img/background3.jpg);
     background-attachment: fixed;
       
@@ -19,8 +18,6 @@ header{text-align: center;
 
 
 img{cursor: pointer;
-
-   /* max-height:416px; */
    max-width:100%;
    border:2px;
    border-radius:12px;
@@ -30,6 +27,10 @@ img:hover{position:center;
     max-width:none;
     max-height:600px;}
 
+.bold{
+    font-weight:bold;
+}
+
 
 .clear_coment{opacity:0.3;
   background: url('style/img/up.ico');
@@ -37,7 +38,8 @@ img:hover{position:center;
     height: 24px;
     width: 24px;}
 
-.clear_coment:hover{opacity:1;opacity:1;}
+.clear_coment:hover{
+    opacity:1;}
 
 .list{
     background-color: white;
@@ -93,9 +95,6 @@ footer{max-width:100%;
     text-align: center;
     color: white;
     font-size: 30px;}
-.bold{
-    font-weight:bold;
-}
 
 
 
