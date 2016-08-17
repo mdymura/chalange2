@@ -1,100 +1,109 @@
-body {
+body{
     margin-left: 15%;
     margin-right: 15%;
-
-    height: 1200px;
+    height:auto;
     width: auto;
     background:center;
     background-size:cover;
-   background-image: url(style/img/background3.jpg);
-    background-attachment: fixed;
-      
+    background-image: url(style/img/background3.jpg);
+    background-attachment: fixed; 
 }
 
-header{text-align: center;
+header{
+    text-align: center;
     color:white;
     font-size: 40px;
 }
 
-
-img{cursor: pointer;
-   max-width:100%;
-   border:2px;
-   border-radius:12px;
+img{
+    cursor: pointer;
+    max-width:100%;
+    border:2px;
+    border-radius:12px;
 }
 
-img:hover{position:center;
+img:hover{
+    position:center;
     max-width:none;
-    max-height:600px;}
+    max-height:100%;
+}
 
 .bold{
     font-weight:bold;
 }
 
 
-.clear_coment{opacity:0.3;
-  background: url('style/img/up.ico');
-  float: right;
+.clear_coment{
+    opacity:0.3;
+    background: url('style/img/up.ico');
+    float: right;
     height: 24px;
-    width: 24px;}
+    width: 24px;
+}
 
 .clear_coment:hover{
-    opacity:1;}
+    opacity:1;
+}
 
 .list{
     background-color: white;
-    margin-top: 20px;
+    margin-top: 2%;
     border: 3px;
-    border-color:white;
+    border-color:black;
     border-style: solid;
     border-radius: 12px;
 }
 .buttons{
     color: black;
-    margin-top: 20px;
+    margin-top: 2%;
     border: 3px;
-    border-color: white;
+    border-color: black;
     border-style: solid;
     border-radius: 12px;
     background-color: white;
 }
-.forms{color:black;
+.forms{
+    color:black;
     background-color: white;
-    margin-top: 20px;
+    margin-top: 2%;
     border: 3px;
-    border-color: white;
+    border-color: black;
     border-style: solid;
     border-radius: 12px;
+    text-align: center;
 }
 
-.pictures{font-size:20px;
+.pictures{
+    font-size:20px;
     background-color:white;      
     text-align: center;
-    margin-top: 20px;
+    margin-top: 2%;
     border: 3px;
-    
     border-color:black;
     border-style: solid;
     border-radius: 12px;
-
 }
 .pictures_blocks{
     margin-right:2px;
     margin-left:2px;
 }
-.wiki{text-align: center;
-    margin-top: 20px;
+
+.wiki{
+    text-align: center;
+    margin-top: 2%;
     border: 3px;
-    border-color:white;
+    border-color:black;
     border-style: solid;
     border-radius: 12px;
     background-color: white;
 }
-footer{max-width:100%;
-    
+
+footer{
+    max-width:100%;
     text-align: center;
     color: white;
-    font-size: 30px;}
+    font-size: 30px;
+}
 
 
 

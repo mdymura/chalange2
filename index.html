@@ -2,98 +2,127 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head >
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" href="main.css" type="text/css"/>
-<title>EURO 2016</title>
-<link rel="icon" href="style/img/ico.png"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+        <title>EURO 2016
+        </title>
+    <link rel="icon" href="style/img/ico.png"/>
 </head>   
    
 <body >
- <header class="bold" > Главная страница</header> 
-<div class="list"  >
-    <img alt="close button" src="style/img/close.png" id ="close" class="clear_coment">
-        <ol type="1">
-            <li>0</li>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
-            <li>7</li>
+    <header class="bold" >
+        Главная страница
+    </header> 
+    <div class="list"  >
+        <img alt="close button" src="style/img/close.png" id ="close" class="clear_coment">
+            <ol type="1">
+                <li>0</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
         </ol>
-</div>
+    </div>
     
-<div class="buttons" >
-    <img alt="close button" src="style/img/close.png" class="clear_coment">
-        <p class="bold">Какое у вас состояние разума?</p>
-        <p><input name="dzen" type="radio" value="nedzen"> Не дзен</p>
-        <p><input name="dzen" type="radio" value="dzen"> Дзен</p>
-        <p><input name="dzen" type="radio" value="pdzen" checked> Полный ... дзен</p>
-        <p><input type="submit" value="Выбрать"></p>  
-        <input name="dzen2" type="checkbox">000 <br>
-        <input name="dzen2" type="checkbox">001 <br>
-        <input name="dzen2" type="checkbox">010 <br>
-        <input name="dzen2" type="checkbox">011 <br>
-        <input name="dzen2" type="checkbox">100 <br>
-        <input name="dzen2" type="checkbox">101 <br>
-        <input name="dzen2" type="checkbox">110 <br>
-        <input name="dzen2" type="checkbox">111 <br>
-</div>
+    <div class="buttons" >
+        <img alt="close button" src="style/img/close.png" class="clear_coment">
+            <p class="bold">
+                Какое у вас состояние разума?
+            </p>
+            <p>
+                <input name="dzen" type="radio" value="nedzen"> 
+                Не дзен
+            </p>
+            <p>
+                <input name="dzen" type="radio" value="dzen">
+                Дзен
+            </p>
+            <p>
+                <input name="dzen" type="radio" value="pdzen" checked> 
+                Полный ... дзен
+            </p>
+            <p>
+                <input type="submit" value="Выбрать">
+            </p>  
+            <input name="dzen2" type="checkbox">000 <br>
+            <input name="dzen2" type="checkbox">001 <br>
+            <input name="dzen2" type="checkbox">010 <br>
+            <input name="dzen2" type="checkbox">011 <br>
+            <input name="dzen2" type="checkbox">100 <br>
+            <input name="dzen2" type="checkbox">101 <br>
+            <input name="dzen2" type="checkbox">110 <br>
+            <input name="dzen2" type="checkbox">111 <br>
+    </div>
 
-<div class="forms" >
-    <img alt="close button" src="style/img/close.png"   class="clear_coment"  >
-    <form    method="POST" name="Form1" target="_blank">
-        <p>Фамилия: <INPUT NAME="Family" SIZE=15 onBlur="this.value=this.value.toUpperCase()">
+    <div class="forms" >
+        <img alt="close button" src="style/img/close.png"   class="clear_coment"  >
+        <form    method="POST" name="Form1" target="_blank">
+            <p>
+                Фамилия: 
+                <INPUT NAME="Family" SIZE=15 onBlur="this.value=this.value.toUpperCase()">
+            </p>
+            <p>
+                Имя:
+                <INPUT NAME="Name" SIZE=20 onBlur="this.value=this.value.toUpperCase()">
+            </p>
+            <P>
+                Возраст:
+                <INPUT NAME="Age" SIZE=16 VALUE="18" onBlur="this.value=CheckAge(this.value)" onFocus="this.select()">
+            </P>
+            <p>
+                Телефон:
+                <INPUT NAME="Phone" SIZE=15>
+            </p>
+            <INPUT TYPE="button" VALUE="Готово" onClick="Complete();">
+            <INPUT TYPE="reset" VALUE="Сброс">
+        </form>  
+    </div>
+    <div class="pictures"  >   
+        <img alt="close button" src="style/img/close.png"   class="clear_coment"  >
+        <p>
+            Картинки
         </p>
-        <p>Имя:     <INPUT NAME="Name" SIZE=20 onBlur="this.value=this.value.toUpperCase()">
-        </p>
-        <P>Возраст: <INPUT NAME="Age" SIZE=16 VALUE="18" onBlur="this.value=CheckAge(this.value)" onFocus="this.select()">
-        </P>
-        <p>Телефон: <INPUT NAME="Phone" SIZE=15></p>
-        <INPUT TYPE="button" VALUE="Готово" onClick="Complete();">
-        <INPUT TYPE="reset" VALUE="Сброс">
-    </form>  
-</div>
-<div class="pictures"  >   
-    <img alt="close button" src="style/img/close.png"   class="clear_coment"  >
-    <p>Картинки</p>
-    <div class="pictures_blocks">
-        <a href="style/img/1.jpg">
-            <img alt="backgrounds1" src="style/img/1.jpg" />
-        </a>
+        <div class="pictures_blocks">
+            <a href="style/img/1.jpg">
+                <img alt="backgrounds1" src="style/img/1.jpg" />
+            </a>
+        </div>
+        <div class="pictures_blocks">
+            <a href="style/img/2.jpg">
+                <img alt="backgrounds2" src="style/img/2.jpg" />
+            </a>
+        </div>
+        <div class="pictures_blocks">
+            <a href="style/img/3.jpg">
+                <img alt="backgrounds3" src="style/img/3.jpg" />
+            </a>
+        </div>
+        <div class="pictures_blocks">
+            <a href="style/img/4.jpg">
+                <img alt="backgrounds4" src="style/img/4.jpg" />
+            </a>
+        </div>
+        <div class="pictures_blocks">
+            <a href="style/img/5.jpg">
+                <img alt="backgrounds5" src="style/img/5.jpg" />
+            </a>
+        </div>
     </div>
-    <div class="pictures_blocks">
-        <a href="style/img/2.jpg">
-            <img alt="backgrounds2" src="style/img/2.jpg" />
-        </a>
-    </div>
-    <div class="pictures_blocks">
-        <a href="style/img/3.jpg">
-            <img alt="backgrounds3" src="style/img/3.jpg" />
-        </a>
-    </div>
-    <div class="pictures_blocks">
-        <a href="style/img/4.jpg">
-            <img alt="backgrounds4" src="style/img/4.jpg" />
-        </a>
-    </div>
-    <div class="pictures_blocks">
-        <a href="style/img/5.jpg">
-            <img alt="backgrounds5" src="style/img/5.jpg" />
-        </a>
-    </div>
-</div>
     <div class="wiki">
         <img alt="close button" src="style/img/close.png" class="clear_coment">
-         Чемпионат Европы по футболу 2016 (сокращённо Евро-2016) — 15-й футбольный турнир для сборных европейских стран,
-         проводящийся под эгидой УЕФА. Проходит с 10 июня по 10 июля 2016 года. В сентябре 2008 года исполком УЕФА постановил,
-         что на Евро-2016 впервые сыграют 24 команды. 28 мая 2010 года в Женеве страной проведения была выбрана Франция (в третий раз в истории).
-
-        Победитель этого чемпионата станет участником Кубка конфедераций 2017 года в России.
+            Чемпионат Европы по футболу 2016 (сокращённо Евро-2016) — 15-й футбольный турнир для сборных европейских стран,
+            проводящийся под эгидой УЕФА. Проходит с 10 июня по 10 июля 2016 года. В сентябре 2008 года исполком УЕФА постановил,
+            что на Евро-2016 впервые сыграют 24 команды. 28 мая 2010 года в Женеве страной проведения была выбрана Франция (в третий раз в истории).
+            Победитель этого чемпионата станет участником Кубка конфедераций 2017 года в России.
     </div>
-    <footer>Тестовое задание для компании RiverSoft
-    <sup> ©</sup>
+    <footer>
+        Тестовое задание для компании RiverSoft
+            <sup>
+                ©
+            </sup>
     </footer>
     
     <script type="text/javascript" src="js/javascripts.js"></script>
