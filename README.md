@@ -1,28 +1,31 @@
-# Тестовое задание для компании River Soft©
+# Test project for River Soft © company
 
-Задание выполнялось в несколько этапов:
+##
+## Autor: Mykola Dymura
 
- * Создание основных файлов, и начальной версии страницы
- * Прикручивание картинок, блоков, работа с css файлом
- * Написание и применение скриптов для большево функционала и красоты
- * Финальная правка 
- 
- После окончания каждого блока сайт проверялся на валидность.
+### To run, download [Project](http://mrdoob.com/projects/code-editor/) and open index.html
 
-Вот немного jQyery в перемешку с js кода! :+1:
+Project performed in several stages:
+* Create the main file, and the initial version of the page
+* Binding images, blocks, work with css file
+* Writing and the use of scripts for more functional and beauty 
+* Final Edit
 
-```javascript
-$(document).ready(function () {
-  $('.clear_coment').click(function(e){
-    var index=$('.clear_coment').index(this); 
-    $(this).parent().remove();
-    });
+After the end of each block of the site was checked for validity.
+##
+### Here are some jQuery mixed with js code:
+
+```Javascript
+$ (Document) .ready (function () {
+  $ ( '. Clear_coment'). Click (function (e) {
+    var index = $ ( 'clear_coment.') index (this).;
+    $ (This) .parent () remove ().;
+    });
 })
 ```
 
-Какие только костыли не были придуманы за время написания сайта, но валидатор он проходил
- 
- Было весело, Спасибо за внимание:-)
+What only crutches were invented during the time of writing the site, but he passed the validator
+ 
+ It was fun, Thank you :-)
 
-# А [тут](http://mrdoob.com/projects/code-editor/) находиться мой проэкт
-
+##
