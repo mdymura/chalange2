@@ -1,18 +1,25 @@
+header{
+    width:100%;
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    background-color: grey;
+}
+
 body{
+    width: auto;
+    margin: 0px;
+    background:center;
+    background-size:cover;
+    background-image: url(style/img/background3.jpg);
+    background-attachment: fixed;
+}
+
+.divs{
     margin-left: 15%;
     margin-right: 15%;
     height:auto;
     width: auto;
-    background:center;
-    background-size:cover;
-    background-image: url(style/img/background3.jpg);
-    background-attachment: fixed; 
-}
-
-header{
-    text-align: center;
-    color:white;
-    font-size: 40px;
 }
 
 img{
@@ -26,6 +33,14 @@ img:hover{
     position:relative;
     max-width:none;
     max-height:100%;
+}
+
+footer{
+    background-color: grey;
+    max-width:100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
 }
 
 .bold{
@@ -98,12 +113,6 @@ img:hover{
     background-color: white;
 }
 
-footer{
-    max-width:100%;
-    text-align: center;
-    color: white;
-    font-size: 30px;
-}
 
 
 
