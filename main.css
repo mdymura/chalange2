@@ -23,7 +23,7 @@ img{
 }
 
 img:hover{
-    position:center;
+    position:relative;
     max-width:none;
     max-height:100%;
 }
