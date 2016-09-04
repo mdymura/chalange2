@@ -24,7 +24,7 @@
 			} 
 		});
 })*/
-/*
+
 $(document).ready(function () {
 	function setLi(id,arrayLi){ 
 		$('#'+id).empty().append(arrayLi); 
@@ -32,7 +32,7 @@ $(document).ready(function () {
 
 	function sortEvenOdd(id, oddSort) { 
 		var even = $('#'+id + ' li:even'); 
-	var odd = $('li:odd', '#'+id); 
+		var odd = $('li:odd', '#'+id); 
 
 	if(!oddSort){ 
 		setLi(id, concatArray(even, odd)); 
@@ -48,38 +48,3 @@ $(document).ready(function () {
 		}); 
 	return firstArray; 
 	}
-	*/
-	$(document).ready(function(){
-$("#sortlist").change(function () {
-var index = this.options.selectedIndex;
-lists.sortEvenOdd(;
-});
-})
-
-var lists = (function({
-function setLi(id,arrayLi){ 
-$('#'+id).empty().append(arrayLi); 
-}
-
-function sortEvenOdd(id, oddSort) { 
-var even = $('#'+id + ' li:even'); 
-var odd = $('li:odd', '#'+id); 
-
-if(!oddSort){ 
-setLi(id, concatArray(even, odd)); 
-}else{ 
-setLi(id, concatArray(odd, even)); 
-} 
-}
-
-function concatArray(firstArray, secondArray) { 
-$(secondArray).each(function () { 
-firstArray.push(this); 
-}); 
-return firstArray; 
-}
-
-return {
-sortEvenOdd: function(num){
-}
-}));
